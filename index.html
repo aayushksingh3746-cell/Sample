@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio website showcasing skills, projects and professional experience.">
+
+    <title>Alex Morgan | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                AM<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+
+                <p class="eyebrow">
+                    <span></span>
+                    Available for opportunities
+                </p>
+
+                <h1>
+                    Hi, I'm
+                    <span>Alex Morgan.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A driven student and freelance developer focused on
+                    creating clean digital experiences and practical
+                    technology solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Let's Talk
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="#" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                Scroll to explore
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section class="about section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">01 — About</p>
+                    <h2>Turning ideas into<br><span>useful solutions.</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-intro">
+                        <p class="large-text">
+                            I'm a curious and adaptable individual who enjoys
+                            learning, building and solving problems through
+                            technology.
+                        </p>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            I believe good technology should be simple,
+                            purposeful and accessible. Whether I'm working on
+                            a personal project or helping a business, I focus
+                            on understanding the problem before creating the
+                            solution.
+                        </p>
+
+                        <p>
+                            My approach combines technical knowledge with
+                            creativity, communication and a strong work ethic.
+                            I'm continuously learning new technologies and
+                            looking for opportunities to turn ideas into
+                            meaningful digital experiences.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Let's work together
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section class="skills section" id="skills">
+            <div class="container">
+
+                <div class="section-heading centered">
+                    <p class="section-label">02 — Skills</p>
+                    <h2>Tools & <span>strengths.</span></h2>
+                    <p>
+                        A combination of technical skills and personal
+                        qualities developed through learning and projects.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-category">
+                        <h3>Development</h3>
+
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>Git</span>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Design</h3>
+
+                        <div class="skill-tags">
+                            <span>UI/UX</span>
+                            <span>Wireframing</span>
+                            <span>Visual Design</span>
+                            <span>Prototyping</span>
+                            <span>Design Systems</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Professional</h3>
+
+                        <div class="skill-tags">
+                            <span>Problem Solving</span>
+                            <span>Communication</span>
+                            <span>Teamwork</span>
+                            <span>Adaptability</span>
+                            <span>Time Management</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="projects section" id="projects">
+            <div class="container">
+
+                <div class="projects-header">
+
+                    <div class="section-heading">
+                        <p class="section-label">03 — Selected Work</p>
+                        <h2>Projects I've<br><span>worked on.</span></h2>
+                    </div>
+
+                    <p class="projects-intro">
+                        A selection of projects demonstrating my approach
+                        to design, development and problem solving.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fa-solid fa-code"></i>
+                                <span>Project Preview</span>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-number">01 / 03</p>
+
+                            <h3>Modern Web Platform</h3>
+
+                            <p>
+                                A responsive web platform designed to
+                                provide users with a simple and intuitive
+                                digital experience.
+                            </p>
+
+                            <div class="project-tools">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <span>Project Preview</span>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-number">02 / 03</p>
+
+                            <h3>Productivity Dashboard</h3>
+
+                            <p>
+                                A clean dashboard concept focused on
+                                organizing tasks, tracking progress and
+                                improving productivity.
+                            </p>
+
+                            <div class="project-tools">
+                                <span>JavaScript</span>
+                                <span>UI/UX</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span>Project Preview</span>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+
+                            <p class="project-number">03 / 03</p>
+
+                            <h3>Business Landing Page</h3>
+
+                            <p>
+                                A conversion-focused landing page created
+                                for a fictional business with a strong
+                                emphasis on clarity and usability.
+                            </p>
+
+                            <div class="project-tools">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>UI/UX</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section class="contact section" id="contact">
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <p class="section-label">04 — Contact</p>
+
+                    <h2>
+                        Have an idea?
+                        <span>Let's build it.</span>
+                    </h2>
+
+                    <p>
+                        Whether you're looking for a developer, a creative
+                        collaborator, or simply want to discuss an idea,
+                        I'd love to hear from you.
+                    </p>
+
+                    <div class="contact-actions">
+
+                        <a href="mailto:hello@example.com"
+                           class="btn btn-primary">
+                            <i class="fa-regular fa-envelope"></i>
+                            Email Me
+                        </a>
+
+                        <a href="#"
+                           class="social-button"
+                           aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            LinkedIn
+                        </a>
+
+                        <a href="#"
+                           class="social-button"
+                           aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                            GitHub
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                AM<span>.</span>
+            </a>
+
+            <p>
+                © <span id="year"></span> Alex Morgan. All rights reserved.
+            </p>
+
+            <a href="#home" class="back-top">
+                Back to top
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+  </html>
